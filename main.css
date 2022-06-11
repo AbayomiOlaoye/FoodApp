@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.logo a {
+  font-family: "caveat brush", "cursive", sans-serif;
+  font-size: 2rem;
+  color: #ce2514;
+  text-decoration: none;
+}
+
+.abt-container {
+  text-align: center;
+}
+.abt-container .rule {
+  margin: 5rem 0;
+}
+.abt-container .about-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.abt-container a {
+  text-decoration: none;
+}
+.abt-container h1 {
+  font-family: "caveat brush", "cursive", sans-serif;
+  font-size: 2.5rem;
+  color: #ce8214;
+  margin-bottom: -2.5rem;
+}
+.abt-container h2 {
+  font-family: "caveat", sans-serif;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+.abt-container .cta-color {
+  color: #67120a;
+  font-weight: bold;
+}
+.abt-container p {
+  padding: 1.5rem 0;
+  color: rgb(54, 51, 51);
+}
+.abt-container .third-step a {
+  cursor: pointer;
+  color: #ce2514;
+}
+.abt-container .third-step a:hover {
+  background-color: #ce8214;
+  transition: background-color 0.5s linear;
+}
+
+/*# sourceMappingURL=main.css.map */

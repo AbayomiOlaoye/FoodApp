@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Caveat+Brush&family=Poppins&display=swap');
+
+$titleFont: 'caveat brush', 'cursive', sans-serif;
+$subTitle: 'caveat', sans-serif;
+$primaryColor: #ce2514;
+$secondaryColor: #ce8214;
+$shade: #67120a;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+
+    a {
+        font-family: $titleFont;
+        font-size: 2rem;
+        color: $primaryColor;
+        text-decoration: none;
+    }
+}
+
+.abt-container {
+    text-align: center;
+
+    .rule {
+        margin: 5rem 0;
+    }
+   
+    .about-page {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        font-family: $titleFont;
+        font-size: 2.5rem;
+        color: $secondaryColor;
+        margin-bottom: -2.5rem;
+    }
+
+    h2 {
+        font-family: $subTitle;
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+    }
+
+    .cta-color {
+        color: $shade;
+        font-weight: bold;
+    }
+
+    p {
+        padding: 1.5rem 0;
+        color: rgb(54, 51, 51);
+    }
+
+    .third-step a {
+        cursor: pointer;
+        color: $primaryColor;
+
+        &:hover {
+            background-color: $secondaryColor;
+            transition: background-color 0.5s linear;
+        }
+    }
+}
