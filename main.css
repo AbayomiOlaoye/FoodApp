@@ -4,10 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+* a {
+  text-decoration: none;
+  color: #ce8214;
+}
 
 body {
   font-family: "poppins", sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 400;
   line-height: 1.8rem;
 }
@@ -17,7 +21,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
 }
 .logo a {
   font-family: "caveat brush", "cursive", sans-serif;
@@ -35,9 +39,6 @@ body {
 .abt-container .about-page {
   max-width: 600px;
   margin: 0 auto;
-}
-.abt-container a {
-  text-decoration: none;
 }
 .abt-container h1 {
   font-family: "caveat brush", "cursive", sans-serif;
@@ -68,15 +69,17 @@ body {
 }
 
 .reg-container {
-  max-width: 650px;
+  max-width: 800px;
   margin: 0 auto;
+  text-align: center;
 }
 .reg-container form {
   margin-top: 5rem;
+  width: 100%;
 }
 .reg-container fieldset {
   padding: 1.8rem;
-  margin-bottom: 1.5rem;
+  margin: 0 1.5rem 1.5rem 1.5rem;
 }
 .reg-container fieldset input {
   font-size: 1.15rem;
@@ -89,9 +92,9 @@ body {
 .reg-container fieldset input:focus {
   outline-color: rgb(240, 234, 234);
 }
-.reg-container button {
+.reg-container .btn {
   border: none;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.15rem;
   background-color: #ce2514;
   border-radius: 4px;
@@ -100,13 +103,39 @@ body {
   height: auto;
   color: #fff;
   cursor: pointer;
-  margin-bottom: 5rem;
+  margin: 0 auto 5rem auto;
+  text-align: center;
 }
-.reg-container button:hover {
+.reg-container .btn:hover {
   background-color: #ce8214;
   color: #000;
   transition: all 0.5s linear;
   transform: scale(1.02);
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: #000;
+  color: #f3f3f3;
+}
+footer .footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 1.5rem 2rem;
+}
+footer h3 {
+  margin: 12px 0;
+}
+footer ul {
+  list-style-type: none;
+}
+footer p {
+  text-align: center;
+  padding: 2.5rem 0;
+}
+footer a:hover {
+  color: #f3f3f3;
 }
 
 /*# sourceMappingURL=main.css.map */
