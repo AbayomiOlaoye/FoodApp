@@ -5,6 +5,27 @@ $subTitle: 'caveat', sans-serif;
 $primaryColor: #ce2514;
 $secondaryColor: #ce8214;
 $shade: #67120a;
+$maxWidth: 600px;
+
+@mixin button {
+    border: none;
+    font-weight: 700;
+    font-size: 1.15rem;
+    background-color: $primaryColor;
+    border-radius: 4px;
+    padding: 10px 12px;
+    width: auto;
+    height: auto;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #ce8214;
+        color: #000;
+        transition: all 0.5s linear;
+        transform: scale(1.02);
+    }
+}
 
 * {
     margin: 0;
@@ -42,7 +63,7 @@ body {
     }
    
     .about-page {
-        max-width: 600px;
+        max-width: $maxWidth;
         margin: 0 auto;
     }
 
@@ -83,3 +104,37 @@ body {
         }
     }
 }
+
+.reg-container {
+    max-width: 650px;
+    margin: 0 auto;
+
+    form {
+        margin-top: 5rem;
+        // padding: 0.8rem;
+    }
+
+    fieldset {
+        padding: 1.8rem;
+        margin-bottom: 1.5rem;
+
+        input {
+            font-size: 1.15rem;
+            margin: 0.5rem;
+            padding: 0.9rem;
+            border: none;
+            background-color: #f3f3f3;
+            border-radius: 4px;
+
+            &:focus {
+                outline-color: rgb(240, 234, 234);
+            }
+        }
+    }
+
+    button {
+        @include button;
+        margin-bottom: 5rem;
+    }
+}
+

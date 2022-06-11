@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration is free</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<header class="header">
+    <div class="logo">
+        <a href="index.html"><img src="./images/logo.png" alt="FoodApp logo"></a>
+        <a href="index.html">FoodApp</a>
+    </div>
+</header>
+
+<body>
+    <div class="reg-container">
+        <div class="form-section">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Details:</legend>
+                    <input type="email" name="email" id="email" placeholder="Email Address" maxlength="30" required>
+                    <input type="password" name="pwd" id="pwd" minlength="6" placeholder="Password" required>
+                    <input type="text" name="fullname" id="fullname" maxlength="50" placeholder="Full Name" required>
+                    <input type="tel" name="phone" id="number" maxlength="10" placeholder="0805-555-5555" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Address:</legend>
+                    <input type="text" name="address" id="address" placeholder="Address" maxlength="30" required>
+                    <input type="text" name="city" id="city" placeholder="City" maxlength="30" required>
+                    <input type="text" name="landmark" id="landmark" placeholder="Nearest Landmark/Bus-Stop" maxlength="30" required>
+                    <input type="number" name="zip-code" id="zip-code" placeholder="520241" maxlength="6">
+                </fieldset>
+                <button class="btn" type="submit">Register Now</button>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
