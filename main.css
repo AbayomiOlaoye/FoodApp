@@ -21,7 +21,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem 2rem;
+  padding: 2rem 3rem;
 }
 .logo a {
   font-family: "caveat brush", "cursive", sans-serif;
@@ -67,14 +67,48 @@ body {
   background-color: #ce8214;
   transition: background-color 0.5s linear;
 }
+.abt-container .reg-cta {
+  border: none;
+  font-weight: 600;
+  font-size: 1.15rem;
+  background-color: #ce2514;
+  border-radius: 4px;
+  padding: 10px 12px;
+  width: auto;
+  height: auto;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 5px;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+.abt-container .reg-cta:hover {
+  background-color: #ce8214;
+  color: #000;
+  transition: all 0.5s linear;
+  transform: scale(1.02);
+}
+.abt-container .reg-cta a {
+  color: #f3f3f3;
+}
+.abt-container .reg-cta a:hover {
+  color: #000;
+}
 
 .reg-container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 5rem auto 0 auto;
   text-align: center;
 }
+.reg-container .req {
+  color: red;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
 .reg-container form {
-  margin-top: 5rem;
+  margin-top: 1.5rem;
   width: 100%;
 }
 .reg-container fieldset {

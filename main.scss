@@ -50,7 +50,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.5rem 2rem;
+    padding: 2rem 3rem;
 
     a {
         font-family: $titleFont;
@@ -104,15 +104,38 @@ body {
             transition: background-color 0.5s linear;
         }
     }
+
+    .reg-cta {
+        @include button;
+        display: inline-flex;
+        gap: 5px;
+        margin: 2rem 0;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            color: #f3f3f3;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
 }
 
 .reg-container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 5rem auto 0 auto;
     text-align: center;
 
+    .req {
+        color: red;
+        font-size: 1.15rem;
+        font-weight: 700;
+    }
+
     form {
-        margin-top: 5rem;
+        margin-top: 1.5rem;
         width: 100%;
     }
 
@@ -145,6 +168,7 @@ footer {
     margin-top: 3rem;
     background-color: #000;
     color: #f3f3f3;
+
     .footer {
         display: flex;
         flex-flow: row wrap;
