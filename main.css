@@ -56,13 +56,14 @@ body main .finder p {
   padding: 1.5rem 0;
   color: #ce2514;
 }
-body main .finder input[type=radio],
-body main .finder input[type=text] {
+body main .finder input[type=radio] {
   margin-right: 1.5rem;
 }
 body main .finder .in-pad {
   padding: 0.8rem;
   outline: none;
+  margin-right: 0.5px;
+  font-size: 0.9rem;
 }
 body main .finder button {
   border: none;

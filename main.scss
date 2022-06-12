@@ -94,14 +94,15 @@ body {
                 color: $primaryColor;
             }
 
-            input[type=radio],
-            input[type=text] {
+            input[type=radio] {
                 margin-right: 1.5rem;
             }
 
             .in-pad {
                 padding: 0.8rem;
                 outline: none;
+                margin-right: 0.5px;
+                font-size: 0.9rem;
             }
 
             button {
