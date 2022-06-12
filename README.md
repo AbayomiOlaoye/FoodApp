@@ -22,3 +22,9 @@ FoodApp is a food delivery service application. Foodies will order take-out from
    - Register a new member
    - Sign-in a member
    - Track requests
+
+### Photo Credits
+
+- Hero-slide-1 Image by <a href="https://pixabay.com/users/ritae-19628/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2169305">RitaE</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2169305">Pixabay</a>
+
+- Hero-slde-2 Image by <a href="https://pixabay.com/users/cattalin-560479/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=518032">cattalin</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=518032">Pixabay</a>
