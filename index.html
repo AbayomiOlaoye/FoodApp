@@ -35,6 +35,19 @@
             <img src="./images/steak.jpg" alt="image of nicely made steak" width="100%" height="680">
             <h1>Eating what you like is not a waste of <span class="tt">time</span>!!!</h1>
         </div>
+        <div class="finder">
+            <h2>Find a Driver Near You!</h2>
+            <p>Choose locator (City/Zip code), type it and click "Go!"</p>
+            <form action="#" class="search">
+                <label for="city-opt">City</label>
+                <input type="radio" name="city-opt" id="city-opt" value="City-search" required>
+                <label for="zip-opt">Zip Code</label>
+                <input type="radio" name="city-opt" id="zip-opt" value="Zip-search" required><br><br>
+                <input class="in-pad"type="text" name="city" id="city" placeholder="YOUR CITY HERE" maxlength="30" required>
+                <input class="in-pad" type="number" name="zip" id="zip" min="500000" placeholder="ZIP CODE" maxlength="6" required>
+                <button type="submit" class="in-pad">Go!</button>
+            </form>
+        </div>
     </main>
 </body>
 <footer>

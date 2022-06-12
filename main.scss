@@ -6,6 +6,7 @@ $primaryColor: #ce2514;
 $secondaryColor: #ce8214;
 $shade: #67120a;
 $maxWidth: 600px;
+$green: #59a218;
 
 @mixin button {
     border: none;
@@ -40,6 +41,10 @@ $maxWidth: 600px;
     ul {
         list-style-type: none;
     }
+
+    .tt {
+        color: $green;
+    }
 }
 
 body {
@@ -60,19 +65,47 @@ body {
 
         h1 {
             position: absolute;
-            bottom: 40%;
+            bottom: 50%;
             max-width: 50%;
             left: 25%;
             text-align: center;
-            line-height: 4rem;
+            line-height: 4.3rem;
             font-family: 'caveat brush', 'cursive', monospace;
             font-size: 4rem;
             text-transform: uppercase;
             color: #f3f3f3;
-            text-shadow: 1px 1px 1px #202020;
+            text-shadow: 5px 2px 2px #202020;
+        }
+    }
 
-            .tt {
-                color: #59a218;
+    main {
+        .finder {
+            padding: 2rem 3rem;
+
+            h2 {
+                color: #202020;
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-family: $subTitle;
+                font-size: 150%;
+                padding: 1.5rem 0;
+                color: $primaryColor;
+            }
+
+            input[type=radio],
+            input[type=text] {
+                margin-right: 1.5rem;
+            }
+
+            .in-pad {
+                padding: 0.8rem;
+                outline: none;
+            }
+
+            button {
+                @include button;
             }
         }
     }
@@ -87,6 +120,8 @@ body {
 
          p {
             color: #f3f3f3;
+            font-family: $subTitle;
+            font-size: 1.8rem;
 
             span {
                 color: #202020;
@@ -245,8 +280,9 @@ footer {
     .footer {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
-        padding: 1.5rem 2rem;
+        justify-content: flex-start;
+        padding: 2rem 3rem;
+        gap: 300px;
     }
 
     h3 {
@@ -262,7 +298,7 @@ footer {
         color: #f3f3f3;
     
         &:hover {
-        color: $secondaryColor;
+        color: $green;
     }
 }
     

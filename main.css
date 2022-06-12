@@ -11,6 +11,9 @@
 * ul {
   list-style-type: none;
 }
+* .tt {
+  color: #59a218;
+}
 
 body {
   font-family: "poppins", sans-serif;
@@ -29,19 +32,55 @@ body .hero-page img {
 }
 body .hero-page h1 {
   position: absolute;
-  bottom: 40%;
+  bottom: 50%;
   max-width: 50%;
   left: 25%;
   text-align: center;
-  line-height: 4rem;
+  line-height: 4.3rem;
   font-family: "caveat brush", "cursive", monospace;
   font-size: 4rem;
   text-transform: uppercase;
   color: #f3f3f3;
-  text-shadow: 1px 1px 1px #202020;
+  text-shadow: 5px 2px 2px #202020;
 }
-body .hero-page h1 .tt {
-  color: #59a218;
+body main .finder {
+  padding: 2rem 3rem;
+}
+body main .finder h2 {
+  color: #202020;
+  font-size: 2.5rem;
+}
+body main .finder p {
+  font-family: "caveat", sans-serif;
+  font-size: 150%;
+  padding: 1.5rem 0;
+  color: #ce2514;
+}
+body main .finder input[type=radio],
+body main .finder input[type=text] {
+  margin-right: 1.5rem;
+}
+body main .finder .in-pad {
+  padding: 0.8rem;
+  outline: none;
+}
+body main .finder button {
+  border: none;
+  font-weight: 600;
+  font-size: 1.15rem;
+  background-color: #ce2514;
+  border-radius: 4px;
+  padding: 10px 12px;
+  width: auto;
+  height: auto;
+  color: #fff;
+  cursor: pointer;
+}
+body main .finder button:hover {
+  background-color: #ce8214;
+  color: #202020;
+  transition: all 0.5s linear;
+  transform: scale(1.02);
 }
 
 .header .adverts {
@@ -52,6 +91,8 @@ body .hero-page h1 .tt {
 }
 .header .adverts p {
   color: #f3f3f3;
+  font-family: "caveat", sans-serif;
+  font-size: 1.8rem;
 }
 .header .adverts p span {
   color: #202020;
@@ -214,8 +255,9 @@ footer {
 footer .footer {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 1.5rem 2rem;
+  justify-content: flex-start;
+  padding: 2rem 3rem;
+  gap: 300px;
 }
 footer h3 {
   margin: 12px 0;
@@ -228,7 +270,7 @@ footer a {
   color: #f3f3f3;
 }
 footer a:hover {
-  color: #ce8214;
+  color: #59a218;
 }
 
 /*# sourceMappingURL=main.css.map */
